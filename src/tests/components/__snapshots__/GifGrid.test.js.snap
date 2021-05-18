@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on Component GifGrid should mount component <GifGrid /> 1`] = `
+<Fragment>
+  <h3>
+    Duke
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Tests on Component GifGrid should show images once loaded 1`] = `
+<Fragment>
+  <h3>
+    Duke
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Titulo Imagen"
+      url="https://localhost/imagen.jpg"
+    />
+  </div>
+</Fragment>
+`;
